@@ -6,13 +6,14 @@ import LoginHeader from "./components/LoginHeader";
 import Footer from "./components/Footer";
 import { PostList } from "./components/PostList";
 import Books from "./components/Books";
+import { PhotoList } from "./components/PhotoList";
 function App() {
     return (
         <div className="App">
             <LoginHeader />
             <header className="App-header">
                 <p>
-                    <Books />
+                    <PhotoList />
                 </p>
             </header>
             <Footer />
